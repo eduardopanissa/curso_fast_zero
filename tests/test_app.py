@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from fastapi.testclient import TestClient
 
-from curso_fast_zero.app import app
+from fast_zero.app import app
 
 
 def test_read_root_deve_retornar_ok_e_ola_mundo():
